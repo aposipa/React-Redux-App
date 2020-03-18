@@ -8,7 +8,7 @@ const JokesList = props => {
         {props.error ? (
             <div className="error">{props.error}</div>
         ) : (
-            <div>{props.value}</div>
+            <div className="joke-text">{props.value}</div>
         )}
         </>
     );

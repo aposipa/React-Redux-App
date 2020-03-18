@@ -3,7 +3,7 @@ import { FETCH_DATA, UPDATE_JOKES, SET_ERROR } from '../actions/index';
 const initialState = {
    
     value: {
-        joke: ""
+        joke: "",
     },
     isFetchingData: false,
     error: ""

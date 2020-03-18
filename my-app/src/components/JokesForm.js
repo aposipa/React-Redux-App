@@ -10,9 +10,9 @@ const JokesForm = props => {
     return (
         <>
         {props.isFetchingData ? (
-            <div>Currently Fetching Data</div>
+            <div>Currently Fetching Joke</div>
             ) : (
-                <button onClick={handleGetData}>Get Joke</button>
+                <button className="button" onClick={handleGetData}>Get Joke</button>
             )}
         </>
     );
